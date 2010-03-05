@@ -1,0 +1,213 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+		<title>Eric Ryan Harrison/C.V.</title>
+
+		<style type="text/css">
+			* { margin: 0; padding: 0; }
+			body { font: 16px Helvetica, Sans-Serif; line-height: 24px; background-color: #051947; color: #fff; }
+			.clear { clear: both; }
+			#page-wrap { width: 800px; margin: 40px auto 60px; }
+			#pic { float: right; margin: -30px 0 0 0; }
+			h1 { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #ddd; }
+			h2 { font-size: 20px; margin: 0 0 6px 0; position: relative; }
+			li span { padding-left: 15px; font-style: italic; font-family: Georgia, Serif; color: #ddd; }
+			h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #ddd; font-weight: normal; }
+			p { margin: 0 0 16px 0; }
+			a { color: #ddd; text-decoration: none; border-bottom: 1px dotted #ddd; }
+			a:hover { border-bottom-style: solid; color: black; }
+			ul { margin: 0 0 32px 17px; }
+			#objective { width: 500px; float: left; }
+			#objective p { font-family: Georgia, Serif; font-style: italic; color: #ddd; }
+		
+			dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 100px; border-right: 1px solid #ddd;  }
+			dt.tall { height: 400px; }
+			dd { width: 600px; float: right; }
+			dd.clear { float: none; margin: 0; height: 15px; }
+		</style>
+		<script type="text/javascript">
+			// style_hack() sets the height of <dt> elements to match the height of the <dd> next to it.
+			var style_hack = function() {
+				var dl_children = document.getElementsByTagName('dl')[0].children;
+				var current_dt = null;
+				for ( var i = 0, l = dl_children.length; i < l; ++i ) {
+					var elem = dl_children[i];
+					console.log(elem);
+					if ( elem.tagName == 'dd' && elem.className != 'clear' ) {
+						if ( current_dt ) {
+							current_dt.style.height = (elem.clientHeight - 6) + 'px';
+							current_dt = null;
+						}
+					} else if ( elem.tagName == 'dt' ) {
+						current_dt = elem;
+					}
+				}
+			}
+		</script>
+	</head>
+
+	<body onload="style_hack();">
+
+		<div id="page-wrap">
+
+			<img src="images/erh.png" alt="Photo of Cthulu" id="pic" />
+
+			<div id="contact-info" class="vcard">
+
+			<!-- Microformats! -->
+
+			<h1 class="fn">Eric Ryan Harrison</h1>
+
+			<p>
+				Phone: <span class="tel">(706) 962-3757</span><br />
+
+				Email: <a class="email" href="mailto:me@ericharrison.info">me@ericharrison.info</a>
+			</p>
+		</div>
+
+		<div id="objective">
+			<p>
+				I am an energetic and creative software developer seeking a job
+				that is as crazy and high-speed as I am.
+			</p>
+		</div>
+
+
+		<div class="clear"></div>
+
+		<dl>
+			<dd class="clear">&nbsp;</dd>
+			
+			<dt class="tall">Experience</dt>
+			<dd>
+
+				<h2>General Dynamics<span>Sr. Software Engineer - April 2008&ndash;Present</span></h2>
+				<ul>
+					<li>Worked on a small team to create a large-scale Configuration Management System (CMDB) using PHP, MySQL, and a lot of Javascript.</li>
+					<li>Built over 40 user-friendly interfaces to allow users to interact with the CMDB.</li>
+					<li>Wrote and maintained a large-scale database migration script to migrate data from original structure to a new and improved structure.</li>
+				</ul>
+				
+				<h2>Morris DigitalWorks <span>Developer - May 2007&ndash;April 2008</span></h2>
+				<ul>
+					<li>
+						Was lead developer on a project to develop a new search engine using PHP to connect to a FAST database installation to provide
+						search service for over 15 regional newspapers.
+					</li>
+					<li>
+						Served as assistant database administrator for all MySQL installations within the company, performing tasks such as database
+						backup and recovery as well as user account creation and role maintenance.
+					</li>
+					<li>
+						Lead developer on an experimental social network for the vertical of travel. This website allowed users to manage and track their
+						trips and store archived travel journals, images, and video.
+					</li>
+				</ul> 
+				
+				<h2>U.S. Army <span>Developer - June 2005&ndash;June 2007</span></h2>
+				<ul>
+					<li>
+						Developed web-based applications using mod_perl and HTML::Mason to interface with both Oracle and MySQL databases. 
+					</li>
+					<li>
+						Assisted in the management of roughly 6500 user accounts and helped with the daily maintenance of two Sun servers and RAID arrays.
+					</li>
+					<li>
+						Designed and implemented an application framework named MetAPP that used HTML::Mason to generate application scaffolding. 
+						Developers would then use the application programming interface (API) provided by MetAPP to quickly add business logic and
+						HTML templates to the project and MetAPP would auto-generate advanced Javascript event handlers to act on their Views.
+					</li>
+					<li>
+						Developed a Content Management System (CMS) for the NSA/CSS Georgia enterprise that over 100 separate webmasters
+						used to modify and create web pages for 85 unique organizations within NSA/CSS Georgia's Signals Intelligence Directorate.
+						The CMS was built specifically to handle the strict requirements regarding data classification and access controls for each
+						individual web page. It also allowed the webmasters to use a variety of pre-built plugins to add dynamically generated content
+						to their organization's web pages.
+					</li>
+				</ul> 
+				
+			</dd>
+			
+			<dd class="clear">&nbsp;</dd>
+			
+			<dt>Education</dt>
+			<dd>
+				<h2>Lake Central High School<span>St. John, Indiana - 1999&ndash;2002</span></h2>
+				<p>
+					<strong>High School Diploma</strong>
+				</p>
+				<ul>
+					<li>Introduction to C++</li>
+					<li>Introduction to Programming with Visual Basic</li>
+					<li>Advanced Programming with Visual Basic</li>
+				</ul>
+				
+				<h2>Certifications</h2>
+				<ul>
+					<li>ITIL V3 Foundation certification <span>February 2010</span></li>
+					<li>CompTIA Network+</li>
+				</ul>
+				
+			</dd>
+
+			<dd class="clear">&nbsp;</dd>
+
+			<dt>Skills</dt>
+			<dd>
+				<h2>Languages</h2>
+				<p>PHP, perl, Python, Javascript, XHTML, CSS</p>
+
+				<h2>Libraries</h2>
+				<p>jQuery, Prototype.js, Ext.js, OpenRICO, HTML::Mason</p>
+				
+				<h2>Databases</h2>
+				<p>MySQL, Oracle, Postgres, Sybase, SQL Server, MS Access</p>
+				
+				<h2>Libraries</h2>
+				<p>FreeBSD, NetBSD, OpenBSD, Solaris, Linux, Microsoft Window 2000/2003/XP/Vista/7</p>
+			</dd>
+
+			<dd class="clear">&nbsp;</dd>
+
+			<dt>Clearance</dt>
+			<dd>Top Secret(TS)/Sensitive Compartmented Information(SCI)</dd>
+
+			<dd class="clear">&nbsp;</dd>
+
+			<dt>References</dt>
+			<dd>
+				<p><em>References from actual people available on request.</em></p>
+				<strong>Social Network Profiles:</strong>
+				<ul>
+					<li>GitHub Profile: <a href="http://github.com/blister">github.com/blister</a></li>
+					<li>StackOverflow Profile: <a href="http://stackoverflow.com/users/79033/eric-ryan-harrison">stackoverflow.com/users/79033</a></li>
+				</ul>
+			</dd>
+			
+			<dd class="clear">&nbsp;</dd>
+
+			<dt>Hobbies</dt>
+			<dd>
+				<p>Here is a very short list of some of my favorite things to do:</p>
+				<ul>
+					<li>NetHack: <a href="http://alt.org/nethack/plr.php?player=blister">Public Nethack Profile (NAO)</a></li>
+					<li>Play with my two awesome kids: Dexter and Isla</li>
+				</ul>
+			</dd>
+
+			<dd class="clear">&nbsp;</dd>
+
+		</dl>
+
+		<div class="clear"></div>
+
+		</div>
+
+	</body>
+
+</html>
